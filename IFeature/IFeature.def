@@ -1,0 +1,58 @@
+; IFeature.def : Declares the module parameters for the DLL.
+
+LIBRARY
+
+EXPORTS
+    ; Explicit exports can go here
+	RCN_GenImageTemplate
+	RCN_CreateImage
+	RCN_ReleaseImage
+	RCN_CheckRecognise
+	RCN_OpenCamera
+	RCN_CloseCamera
+	RCN_Capture
+	RCN_OpenPropertyDlg
+	RCN_CorrectionDeviceCoordinate
+	RCN_GetCutPicture
+	RCN_GetScalePicture
+	RCN_GetOriginPicture
+	RCN_VerifySealCodeBar
+	RCN_AdjustCameraParameter
+	RCN_AdjustCameraFocusExposure
+	RCN_GetCameraParameter
+	RCN_AdjustCorrectionSealArea
+	RCN_ClipperImage
+	RCN_VerifySealCodeBarNew
+	RCN_VerifySealCodeBarNoRecognizeType
+	RCN_GenQRCode
+	RCN_RecoQRCode
+	RCN_CutImageByQRCode
+	RCN_MatchTextBlockByModel
+	RCN_CaptureFromFile
+	RCN_MatchTextBlockByModelByHandsInputs
+	RCN_MatchTextBlockByModelNumberNew
+	RCN_GetCutPictureToMemory
+	RCN_GetCutPictureToMemory2
+	RCN_CutImageByVerifyCode
+	RCN_VerifyCodeOldVersion
+	RCN_GetCutPictureSealPoint
+	RCN_TestRecognizeSealCode
+	RCN_GetAlgorithmParam
+	RCN_LoadTemplate
+	RCN_CalacDPI
+	RCN_DetectWhiteSpace
+	RCN_GetCutPictureSealPointByRecognize
+	RCN_BgrToGray
+	RCN_RecoQRCodebyPoint
+	RCN_CompareSealPic
+	RCN_CorrectionDeviceCoordinate2
+	RCN_GetInforImage
+	RCN_OcclusionAlarm
+	RCN_DetectWhiteSpaceA4
+	RCN_DetectInkpadBox
+	RCN_SetImageZone
+	RCN_SetTemplatesInfors
+	RCN_CompareTemplate
+	RCN_RecoQRCodeNormal
+	RCN_SetTemplateSealPos
+
